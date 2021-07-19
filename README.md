@@ -1,2 +1,1 @@
-# rsschool-cv
-CV
+https://Yanesk.github.io/rsschool-cv/cv
