@@ -1,6 +1,6 @@
-#Kseniia Lebedeva#
+# Kseniia Lebedeva #
 
-###Frontend Developer(Trainee)###
+### Frontend Developer(Trainee) ###
 
 
 **Contact Information:**
@@ -19,39 +19,39 @@ Good team-player, eager to work hard and learn fast.
 
 **Skills:**
 
-*HTML/CSS;
+* HTML/CSS;
 
-*Git;
+* Git;
 
 
 **Work Experience:**
 
-*2018-2021 - Exectuve Assistant with English Knowledge, Testron JSC;
+* 2018-2021 - Exectuve Assistant with English Knowledge, Testron JSC;
 
-*2015-2018 - English Teacher(Language Courses & Private Lessons);
+* 2015-2018 - English Teacher(Language Courses & Private Lessons);
 
 
 **Education:**
 
 *Online Courses:*
 
-*HTML for JS Developers ITGid (https://itgid.info/course/html) - 2021;
+* HTML for JS Developers ITGid (https://itgid.info/course/html) - 2021;
 
 *University:*
 
-*MA in Linguistics, St Petersburg University - 2016;
+* MA in Linguistics, St Petersburg University - 2016;
 
-*BA in Linguistics, Moscow State University of Economics, Statistics and Informatics - 2014.
+* BA in Linguistics, Moscow State University of Economics, Statistics and Informatics - 2014.
 
 **Languages:**
 
-*English - C1;
+* English - C1;
 
-*Italian - B1;
+* Italian - B1;
 
-*Korean - A2;
+* Korean - A2;
 
-Russian - Native.
+* Russian - Native.
 
 
 
