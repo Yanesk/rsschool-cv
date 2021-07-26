@@ -20,7 +20,7 @@ header {
    padding: 30px;
 }
 
-img {
+.photo {
     position: relative;
     left: 40px;
     grid-area: img;
@@ -44,6 +44,7 @@ h2 {
     grid-area: contact;
     font-size: 70%;
     justify-self: end;
+    border-right: 1px solid #7c523a;
 }
 
 section {
@@ -59,5 +60,23 @@ h3 {
 
 h3 {
     font-style: italic;
+    font-size: 1em;
 }
 
+.contact {
+    list-style-type: none;
+}
+
+footer {
+    border-top: 1px dotted #7c523a;
+    padding-top: 15px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.github {
+    float: right;
+    margin-right: 300px;
+}
