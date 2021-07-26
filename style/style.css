@@ -1,0 +1,63 @@
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 70%;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fdfdfc;
+    color: #a1877a;
+    border: 5px solid #7c523a;
+    border-radius: 15px;
+}
+
+header {
+   display: grid;
+   grid-template-areas: 
+   "img name"
+   "contact position";
+   grid-template-columns: 30% 1fr;
+   text-align: center;
+   padding: 30px;
+}
+
+img {
+    position: relative;
+    left: 40px;
+    grid-area: img;
+    justify-self: center;
+    max-width: 60%;
+}
+
+h1 {
+    grid-area: name;
+    align-self: center;
+    margin-bottom: 0;
+    font-size: 2em;
+}
+
+h2 {
+    grid-area: position;
+    margin-top: 0;
+}
+
+.contact-info {
+    grid-area: contact;
+    font-size: 70%;
+    justify-self: end;
+}
+
+section {
+    padding: 15px;
+    line-height: 25px;
+}
+
+h1,
+h2,
+h3 {
+    color: #4b281c;
+}
+
+h3 {
+    font-style: italic;
+}
+
