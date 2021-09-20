@@ -6,91 +6,91 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CV Kseniia Lebedeva</title>
+  <link rel="stylesheet" href="./style/icons.css">
   <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/default.min.css">
 </head>
 
-<body>
+<body class="body">
   <main>
-  <div class="container">
-
     <article>
-
       <header>
+        <div class="container header__container">
+        <img src="./images/cv5.jpg" alt="Kseniia Lebedeva" class="photo">
+      <div class="container-name">
         <h1>Kseniia Lebedeva</h1>
         <h2>Frontend Developer (Trainee)</h2>
-        <img src="./images/cv4.jpg" alt="Kseniia Lebedeva" class="photo">
-        <section class="contact-info">
-          <h2 class="section-heading">Contact Information:</h2>
-          <ul class="contact">
-            <li>Email: <a href="mailto:k.g.lebedeva@gmail.com">k.g.lebedeva@gmail.com</a></li>
-            <li>Location: St Petersburg,Russia</li>
-          </ul>
-        </section>
+      </div>
+      </div>
       </header>
 
-      <section>
-        <h2 class="section-heading">Profile:</h2>
+      <nav>
+        <div class="navigation__container">
+          <ul class="navigation">
+            <li class="navigation-list"><a href="#About-me">About me</a></li>
+            <li class="navigation-list"><a href="#Skills">Skills</a></li>
+            <li class="navigation-list"><a href="#Code">Code Example</a></li>
+            <li class="navigation-list"><a href="#Experience">Work Experience</a></li>
+            <li class="navigation-list"><a href="#Languages">Languages</a></li>
+            <li class="navigation-list"><a href="#contact-info">Contact Information</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="About-me">
+        <div class="container">
+        <h2 class="section-heading">About me:</h2>
         <p>
           Enthusiast with linguistic and teaching background, seeking IT
           experience. Good team-player, eager to work hard and learn fast.
         </p>
+      </div>
       </section>
 
-      <section>
+      <section id="Skills">
+        <div class="container">
         <h2 class="section-heading">Skills:</h2>
         <ul>
           <li>HTML/CSS</li>
           <li>Git</li>
         </ul>
+      </div>
       </section>
 
-      <section>
+      <section id="Code">
+        <div class="container">
         <h2 class="section-heading">Code Example:</h2>
-        <p>This part of semantic html code was written by me as a homework for online course:</p>
+        <p>Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd argument (also a string).</p>
         <pre><code>         
-&lt;body&gt;
-&lt;article&gt;
-  &lt;header&gt;
-    &lt;h1&gt;Staged | Постановка (UK, 2020, 1S)&lt;/h1&gt;
-    &lt;a href="#"&gt;imdb.com&lt;/a&gt;
-    &lt;h3&gt;Staged (TV Series 2020– )&lt;/h3&gt;
-    &lt;p&gt;With David Tennant, Michael Sheen, Georgia Moffett, Lucy Eaton. David Tennant and Michael Sheen (playing
-      themselves) were due to star in a production of 'Six...&lt;/p&gt;
-  &lt;/header&gt;
-  &lt;figure&gt;
-    &lt;img src="#" alt="photo"&gt;
-    &lt;figcaption&gt;[lockdown comedy]&lt;/figcaption&gt;
-  &lt;/figure&gt;
-  &lt;p&gt;Камео Дэвида Теннанта и Майкла Шина, репетирующих на удаленке новую пьесу. Все эпизоды забавны, а весь второй
-    мы
-    безостановочно прохохотали (хотя, возможно, это как–то связано с бутылкой вина, открытой в начале первого
-    эпизода).&lt;/p&gt;
-  &lt;p&gt;В некоторых эпизодах появляются Сэмюэл Л. Джексон и Джуди Денч.&lt;/p&gt;
-  &lt;p&gt;Зайдет не всем — юмор своеобразный, приглушенный; но поклонникам Тенната смотреть надо — он в сериале прямо
-    чёрт
-    какой–то. И следите за титрами в эпизодах!&lt;/p&gt;
-  &lt;footer&gt;
-    &lt;p&gt;MVO AlexFilm, 1Sx6E, 18m.&lt;/p&gt;
-  &lt;/footer&gt;
-&lt;/article&gt;
-&lt;aside&gt;
-  &lt;h5&gt;Посты недели&lt;/h5&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href="#"&gt;Devs&lt;br /&gt;
-        +92&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#"&gt;White House Farm (UK, 2020, 1S) | Убийство на ферме «Уайтхаус»&lt;br /&gt;
-        +72&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#"&gt;Space Force/Космические войска — 2020&lt;br /&gt;
-        +35&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="#"&gt;Staged | Постановка (UK, 2020, 1S)&lt;br /&gt;
-        +23&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/aside&gt;
-&lt;/body&gt;
+          function solution(str, ending){
+            let newStr = '';
+             let i = str.length - ending.length;
+            for (; i < str.length; i++) {
+            newStr += str[i];
+            }
+            if (newStr === ending) {
+            return true;
+            } else return false;
+            }
 </code></pre>
+<p>An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.</p>
+<code><pre>
+  function isIsogram(str){
+   
+  for (let i = 0; i < str.length; i+=1) {
+      for (let b = i + 1; b < str.length; b += 1) {
+        if (str[i].toUpperCase() === str[b].toUpperCase()) { 
+return false;
+} 
+  } 
+} return true;
+}
+</pre></code>
+</div>
        </section>
 
-        <section>
+        <section id="Experience">
+          <div class="container">
           <h2 class="section-heading">Work Experience:</h2>
           <ul>
             <li>
@@ -100,14 +100,16 @@
               2015-2018 - English Teacher (Language Courses & Private Lessons)
             </li>
           </ul>
+        </div>
         </section>
 
-        <section>
+        <section id="Education">
+          <div class="container">
           <h2 class="section-heading">Education:</h2>
           <h3>Online Courses:</h3>
           <ul>
             <li>HTML for JS Developers, ITGid - 2021</li>
-            <li>JS/FRONT-END. STAGE 0, RS School - In Process</li>
+            <li>JS/FRONT-END. RS School - In Progress</li>
           </ul>
           <h3>University:</h3>
           <ul>
@@ -117,28 +119,42 @@
               and Informatics - 2014
             </li>
           </ul>
+        </div>
         </section>
 
-        <section>
-          <h2 class="section heading">Languages:</h2>
-          <ul>
-            <li>English - C1</li>
-            <li>Italian - B1</li>
-            <li>Korean - A2</li>
-            <li>Russian - Native</li>
-          </ul>
+        <section id="Languages">
+          <div class="container languages__container">
+          <h2 class="section-heading">Languages:</h2>
+            <ul class="languages__content">
+              <li>English - C1</li>
+              <li>Italian - B1</li>
+              <li>Korean - A2</li>
+              <li>Russian - Native</li>
+            </ul>
+        </div>
         </section>
 
         <footer>
-          <div class="github">My GitHub: <a href="https://github.com/Yanesk">Yanesk</a>
-            <p>2021</p>
+          <div class="container">
+            <section id="contact-info">
+              <h2 class="section-heading">Contact Information:</h2>
+              <ul class="contact">
+                <li>Email: <a href="mailto:k.g.lebedeva@gmail.com">k.g.lebedeva@gmail.com</a></li>
+                <li>Location: St Petersburg,Russia</li>
+              </ul>
+            </section>
+          <div class="github">My GitHub: <a href="https://github.com/Yanesk">Yanesk</a> 
           </div>
           <a href="https://rs.school/js/"><img src="./images/rs_school_js.svg" alt="logo" class="logo"></a>
+        </div>
+        <p>2021</p>
         </footer>
 
     </article>
   </div>
 </main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/languages/go.min.js"></script>
+<script>hljs.highlightAll();</script>
 </body>
 
 </html>
