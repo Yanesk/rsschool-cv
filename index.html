@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV Kseniia Lebedeva</title>
+  <link rel="stylesheet" href="./style/icons.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body class="body">
+  <main>
+    <article>
+      <header class="header">
+        <div class="container header__container" id="header">
+          <img src="./images/cv1.jpg" alt="Kseniia Lebedeva" class="photo">
+          <div class="container-name">
+            <h1>Kseniia Lebedeva</h1>
+            <h2>Frontend Developer (Trainee)</h2>
+            <section id="contact-info">
+              <div class="contacts">
+                <ul class="contact">
+                  <li><a href="mailto:k.g.lebedeva@gmail.com" class="link icon icon-mail4"></a></li>
+                  <li><a href="https://github.com/Yanesk" class="link icon icon-github"></a></li>
+                  <li><a href="https://telegram.me/Sirentia" class="link icon icon-telegram"></a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+        </div>
+      </header>
+
+      <nav>
+        <div class="navigation__container">
+          <ul class="navigation">
+            <li class="navigation-list"><a href="#About-me">About me</a></li>
+            <li class="navigation-list"><a href="#Skills">Skills</a></li>
+            <li class="navigation-list"><a href="#Code">Code Example</a></li>
+            <li class="navigation-list"><a href="#Experience">Work Experience</a></li>
+            <li class="navigation-list"><a href="#Languages">Languages</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section id="About-me">
+        <div class="container">
+          <h2 class="section-heading">About me</h2>
+          <p>
+            Enthusiast with linguistic and teaching background, seeking IT
+            experience. Good team-player, eager to work hard and learn fast. Located in St. Petersburg.
+          </p>
+        </div>
+      </section>
+
+      <section id="Skills">
+        <div class="container">
+          <h2 class="section-heading">Skills</h2>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML/CSS</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="Code">
+        <div class="container">
+          <h2 class="section-heading">Code Example</h2>
+          <p>Examples from Codewars.com</p>
+          <p>Complete the solution so that it returns true if the first argument(string) passed in ends with the 2nd
+            argument (also a string).</p>
+            <pre><code>         
+              function solution(str, ending){
+                let newStr = '';
+                 let i = str.length - ending.length;
+                for (; i < str.length; i++) {
+                newStr += str[i];
+                }
+                if (newStr === ending) {
+                return true;
+                } else return false;
+                }
+            </code></pre>
+            <p>An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function
+              that determines whether a string that contains only letters is an isogram. Assume the empty string is an
+              isogram. Ignore letter case.</p>
+            <pre><code>
+              function isIsogram(str){
+   
+                for (let i = 0; i < str.length; i+=1) {
+                    for (let b = i + 1; b < str.length; b += 1) {
+                      if (str[i].toUpperCase() === str[b].toUpperCase()) { 
+            return false;
+            } 
+                } 
+            } return true;
+            
+            }
+            </code></pre>
+        </div>
+      </section>
+
+      <section id="Experience">
+        <div class="container">
+          <h2 class="section-heading">Work Experience</h2>
+          <ul>
+            <li>
+              2018-2021 - Executive Assistant with English Knowledge, Testron JSC
+            </li>
+            <li>
+              2015-2018 - English Teacher (Language Courses & Private Lessons)
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="Education">
+        <div class="container">
+          <h2 class="section-heading">Education</h2>
+          <h3>Online Courses:</h3>
+          <ul>
+            <li>HTML for JS Developers, ITGid - 2021</li>
+            <li>JS/FRONT-END. RS School - In Progress</li>
+          </ul>
+          <h3>University:</h3>
+          <ul>
+            <li>MA in Linguistics, St Petersburg University - 2016</li>
+            <li>
+              BA in Linguistics, Moscow State University of Economics, Statistics
+              and Informatics - 2014
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="Languages">
+        <div class="container languages__container">
+          <h2 class="section-heading">Languages</h2>
+          <ul class="languages__content">
+            <li>English - C1</li>
+            <li>Italian - B1</li>
+            <li>Korean - A2</li>
+            <li>Russian - Native</li>
+          </ul>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer_container">
+          <a href="https://rs.school/js/" class="logo"></a>
+          <a href="https://github.com/Yanesk" class="link icon icon-github"></a>
+        <p>2021</p>
+      </div>
+      </footer>
+      <a href="#header">
+        <div class="top"><b>Top</b></div>
+      </a>
+
+    </article>
+    </div>
+  </main>
+</body>
+
+</html>
